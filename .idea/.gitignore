@@ -1,0 +1,10 @@
+# Default ignored files
+/workspace.xml
+compiler.xml
+cyb_repo.iml
+encodings.xml
+misc.xml
+modules.xml
+vcs.xml
+workspace.xml
+.gitignore

@@ -1,45 +1,20 @@
-
-
-
-
----
-# **为什么会有这个网站**
----
-
-> [!TIP]
->  本站取名 **r2coding**，即 **Road To Coding**，意为「编程自学之路」，是自学编程以来所用资源和分享内容的大聚合。
->  
->  旨在为编程自学者提供一系列：
->  - **清晰的编程自学路线**
->  - **各编程岗位方向的知识点梳理**
->  - **靠谱的资源**
->  - **高效的工具**
->  - **务实的技术文章**
->
-> 方便自己也方便他人。网站内容会保持**持续更新**，欢迎收藏品鉴！
-
----
-# **本站内容地图**
----
-
-![](https://cdn.jsdelivr.net/gh/justacoder99/r2coding@master/img/contentmap.3sdmma4od740.png)
-
----
-# **编程自学路线+知识大梳理**
-
----
-> [!NOTE]
->  本站目前整理收录了6个大方向（岗位）的学习路线+知识点大梳理，分别为：
->  
->  - **Java后端开发**
->  - **前端开发**
->  - **C/C++后台开发**
->  - **大数据开发**
->  - **嵌入式开发**
->  - **网络安全方向**
->  
-
-后续本站也会持续更新和增加更多方向岗位的学习路线...
+## 本页面如何生成的
+### 安装docsify
+```bash
+npm i docsify-cli -g
+# 验证
+docsify -v
+# docsify-cli version:
+# 4.4.4
+```
+### 新建一个github的仓库，拉到本地目录 cyb_repo
+```bash
+# 初始化
+docsify init ./cyb_repo
+# 启动服务
+docsify serve cyb_repo
+```
+[docsify命令行说明](https://github.com/docsifyjs/docsify-cli)
 
 ---
 
